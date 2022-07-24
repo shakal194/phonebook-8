@@ -1,0 +1,37 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 700;
+  color: rgb(28, 15, 2);
+  font-size: 30px;
+}
+
+.button {
+  width: 100px;
+  height: 42px;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+
+  box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.85);
+}
+
+.button:hover,
+.button:focus {
+  cursor: pointer;
+  color: rgb(7, 180, 65);
+}
+
+.avatar {
+  margin-right: 4px;
+}

@@ -1,0 +1,39 @@
+.header {
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+}
+.headerWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.headerWrapper a {
+  color: rgb(28, 12, 2);
+}
+
+.styleLink {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 700;
+  color: rgb(28, 15, 2);
+  font-size: 30px;
+}
+.activeStyleLink {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 700;
+  color: rgb(7, 180, 65);
+  font-size: 30px;
+}
